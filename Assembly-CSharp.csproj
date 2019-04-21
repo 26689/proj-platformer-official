@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GoldPickup.cs" />
+    <Compile Include="Assets\Scripts\HealthManager.cs" />
+    <Compile Include="Assets\Scripts\HurtPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\pick up\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
