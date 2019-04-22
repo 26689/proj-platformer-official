@@ -22,7 +22,11 @@ public class HurtPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<HealthManager>().HurtPlayer(damagToGive);
+
+            Vector3 hitDerection = other.transform.position - transform.position;
+            hitDerection = hitDerection.normalized;
+
+            FindObjectOfType<HealthManager>().HurtPlayer(damagToGive, hitDerection);
         }
     }
 }

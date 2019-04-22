@@ -565,6 +565,8 @@ MonoBehaviour:
   jumpForce: 15
   controller: {fileID: 0}
   gravityScale: 5
+  knockBackForce: 5
+  knockVackTime: 1
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 5
   currentHealth: 5
+  thePlayer: {fileID: 0}
 --- !u!1 &930096793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5129501149703050670, guid: cf857baab357dca4fb76832c383a9499,
