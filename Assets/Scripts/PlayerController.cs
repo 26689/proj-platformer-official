@@ -18,7 +18,7 @@ public class PlayerController: MonoBehaviour
 
 
     public float knockBackForce;
-    public float knockVackTime;
+    public float knockBackTime;
     private float knockBackCounter;
 
 
@@ -71,8 +71,8 @@ public class PlayerController: MonoBehaviour
     }
     public void knockBack(Vector3 direction)
     {
-        knockBackCounter = knockVackTime;
-
+        knockBackCounter = knockBackTime;
+        
       
 
         moveDirection = direction * knockBackForce ;
